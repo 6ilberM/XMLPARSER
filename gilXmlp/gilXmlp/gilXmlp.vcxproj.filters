@@ -19,4 +19,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GilXMLPARS\GilFavGames.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="GilXMLPARS\GilXMLPARS.xslt">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
 </Project>

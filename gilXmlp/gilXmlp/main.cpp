@@ -2,12 +2,12 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-using namespace std;
+
 int main()
 {
-	ifstream infile;
+	std::ifstream infile;
 	infile.open("GilXMLPARS/GilFavGames.xml");
-	//
+	FILE*  f = fopen("GilXMLPARS/GilFavGames.xml", "r");
 	if (infile.fail())
 	{
 		int temp;
@@ -15,15 +15,16 @@ int main()
 		std::cin>> temp;
 		exit(1);
 	}
+
 	int n=1;
-	string s;
+	std::string s;
 	int itemp;
 	std::cin >> s;
 
-	ofstream outData;
-	outData.open("outfile..xlsx", ios::app);
-	outData << n<<endl;
-	outData << s << endl;
+	std::ofstream outData;
+	outData.open("outfile..xlsx", std::ios::app);
+	outData << n<< std::endl;
+	outData << s << std::endl;
 
 	system("pause");
 
