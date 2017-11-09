@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="GilXMLPARS.xslt" type="text/xsl"?>
+<favorite>
+	<game alive="no">
+		<title>Kirby and The Amazing Mirror </title>
+		<year>2004 </year>
+		<genre>Platformer </genre>
+		<Played>Since Release</Played>
+		<Developer>HAL Laboratory, Flagship, Dimps, Capcom, Arika </Developer>
+	</game>
+	<game alive="yes">
+		<title>Counter Strike </title>
+		<year>June 19, 1999 </year>
+		<genre>FPS </genre>
+		<Played>Since 2005 </Played>
+		<Developer>Valve</Developer>
+
+	</game>
+
+	<game alive="yes">
+		<title>The Binding of Isaac Rebirth </title>
+		<year>4 November 2014 </year>
+		<genre>Roguelike, Dungeon crawl </genre>
+		<Played>Since 2015</Played>
+		<Developer>Nicalis</Developer>
+	</game>
+
+	<game alive="yes">
+		<title>The Stanley Parable </title>
+		<year>17 October 2013</year>
+		<genre>Interactive fiction ???</genre>
+		<Played>2014 and 2016</Played>
+		<Developer>Davey Wreden, William Pugh</Developer>
+		
+	</game>
+		<game alive="yes">
+		<title>Dead Space 2 </title>
+		<year>25 January 2011</year>
+		<genre>Survival horror</genre>
+		<Played>2011-2015-2017</Played>
+		<Developer>Visceral Games</Developer>
+		
+	</game>
+</favorite>
